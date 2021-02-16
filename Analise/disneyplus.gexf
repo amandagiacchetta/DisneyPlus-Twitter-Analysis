@@ -1,0 +1,124 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2020-11-28">
+    <creator>NetworkX 2.5</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <nodes>
+      <node id="umaluqualquer" label="umaluqualquer" />
+      <node id="0" label="0" />
+      <node id="Rose_Ro" label="Rose_Ro" />
+      <node id="DisneyPlusBR" label="DisneyPlusBR" />
+      <node id="alinocatadeboa" label="alinocatadeboa" />
+      <node id="pri_sjfr" label="pri_sjfr" />
+      <node id="sandy_disco" label="sandy_disco" />
+      <node id="TopMoviie" label="TopMoviie" />
+      <node id="Uarevaa" label="Uarevaa" />
+      <node id="supwrgirlx" label="supwrgirlx" />
+      <node id="NewsWandaVision" label="NewsWandaVision" />
+      <node id="AlesonSony" label="AlesonSony" />
+      <node id="phcalado1" label="phcalado1" />
+      <node id="ANDRE_POS" label="ANDRE_POS" />
+      <node id="rapadura" label="rapadura" />
+      <node id="carolmanganaro" label="carolmanganaro" />
+      <node id="brunolsoficial" label="brunolsoficial" />
+      <node id="brazclaudiaa" label="brazclaudiaa" />
+      <node id="_MyLoneliness" label="_MyLoneliness" />
+      <node id="KauuLC" label="KauuLC" />
+      <node id="zicomments" label="zicomments" />
+      <node id="EuFernandaCruz" label="EuFernandaCruz" />
+      <node id="BRVingadores" label="BRVingadores" />
+      <node id="tiagobacelar" label="tiagobacelar" />
+      <node id="AnaPaul80350089" label="AnaPaul80350089" />
+      <node id="disneygobr" label="disneygobr" />
+      <node id="EW" label="EW" />
+      <node id="amigosbh_sandy" label="amigosbh_sandy" />
+      <node id="plantaonerdice" label="plantaonerdice" />
+      <node id="disneyplus" label="disneyplus" />
+      <node id="WreckingIan" label="WreckingIan" />
+      <node id="DouglasBfs" label="DouglasBfs" />
+      <node id="Fe_Spiesz" label="Fe_Spiesz" />
+      <node id="gugumorta" label="gugumorta" />
+      <node id="rroba_Piietro" label="rroba_Piietro" />
+      <node id="martinelli_edm" label="martinelli_edm" />
+      <node id="leandro_ssobral" label="leandro_ssobral" />
+      <node id="sandy" label="sandy" />
+      <node id="cinemaanosluz" label="cinemaanosluz" />
+      <node id="omelete" label="omelete" />
+      <node id="MariannaPuente" label="MariannaPuente" />
+      <node id="_SrtaBia" label="_SrtaBia" />
+      <node id="nerddavizinhaca" label="nerddavizinhaca" />
+      <node id="Maui_Alex_" label="Maui_Alex_" />
+      <node id="DaviChaves1" label="DaviChaves1" />
+      <node id="PamplonaIsadora" label="PamplonaIsadora" />
+      <node id="oKaicFranca" label="oKaicFranca" />
+      <node id="rgrayguedes" label="rgrayguedes" />
+      <node id="papodecinefilo" label="papodecinefilo" />
+      <node id="agustdisney" label="agustdisney" />
+      <node id="almanaquedisney" label="almanaquedisney" />
+      <node id="DayaneFMelo" label="DayaneFMelo" />
+      <node id="carolpiquet" label="carolpiquet" />
+      <node id="Ju_assmann" label="Ju_assmann" />
+      <node id="paulanovelli" label="paulanovelli" />
+      <node id="Multiverso_N" label="Multiverso_N" />
+      <node id="edvaldo7neto" label="edvaldo7neto" />
+      <node id="dayaninhasantos" label="dayaninhasantos" />
+      <node id="VRocha777" label="VRocha777" />
+    </nodes>
+    <edges>
+      <edge source="umaluqualquer" target="0" id="0" />
+      <edge source="umaluqualquer" target="sandy" id="1" />
+      <edge source="0" target="martinelli_edm" id="2" />
+      <edge source="0" target="disneygobr" id="3" />
+      <edge source="0" target="DisneyPlusBR" id="4" />
+      <edge source="0" target="papodecinefilo" id="5" />
+      <edge source="0" target="nerddavizinhaca" id="6" />
+      <edge source="0" target="plantaonerdice" id="7" />
+      <edge source="0" target="Uarevaa" id="8" />
+      <edge source="0" target="Multiverso_N" id="9" />
+      <edge source="Rose_Ro" target="DisneyPlusBR" id="10" />
+      <edge source="DisneyPlusBR" target="alinocatadeboa" id="11" />
+      <edge source="DisneyPlusBR" target="pri_sjfr" id="12" />
+      <edge source="DisneyPlusBR" target="sandy_disco" id="13" />
+      <edge source="DisneyPlusBR" target="AlesonSony" id="14" />
+      <edge source="DisneyPlusBR" target="phcalado1" id="15" />
+      <edge source="DisneyPlusBR" target="carolmanganaro" id="16" />
+      <edge source="DisneyPlusBR" target="brunolsoficial" id="17" />
+      <edge source="DisneyPlusBR" target="brazclaudiaa" id="18" />
+      <edge source="DisneyPlusBR" target="_MyLoneliness" id="19" />
+      <edge source="DisneyPlusBR" target="KauuLC" id="20" />
+      <edge source="DisneyPlusBR" target="zicomments" id="21" />
+      <edge source="DisneyPlusBR" target="EuFernandaCruz" id="22" />
+      <edge source="DisneyPlusBR" target="BRVingadores" id="23" />
+      <edge source="DisneyPlusBR" target="tiagobacelar" id="24" />
+      <edge source="DisneyPlusBR" target="AnaPaul80350089" id="25" />
+      <edge source="DisneyPlusBR" target="amigosbh_sandy" id="26" />
+      <edge source="DisneyPlusBR" target="WreckingIan" id="27" />
+      <edge source="DisneyPlusBR" target="DouglasBfs" id="28" />
+      <edge source="DisneyPlusBR" target="rroba_Piietro" id="29" />
+      <edge source="DisneyPlusBR" target="MariannaPuente" id="30" />
+      <edge source="DisneyPlusBR" target="_SrtaBia" id="31" />
+      <edge source="DisneyPlusBR" target="Maui_Alex_" id="32" />
+      <edge source="DisneyPlusBR" target="DaviChaves1" id="33" />
+      <edge source="DisneyPlusBR" target="PamplonaIsadora" id="34" />
+      <edge source="DisneyPlusBR" target="oKaicFranca" id="35" />
+      <edge source="DisneyPlusBR" target="rgrayguedes" id="36" />
+      <edge source="DisneyPlusBR" target="DayaneFMelo" id="37" />
+      <edge source="DisneyPlusBR" target="carolpiquet" id="38" />
+      <edge source="DisneyPlusBR" target="Ju_assmann" id="39" />
+      <edge source="DisneyPlusBR" target="paulanovelli" id="40" />
+      <edge source="DisneyPlusBR" target="edvaldo7neto" id="41" />
+      <edge source="TopMoviie" target="Uarevaa" id="42" />
+      <edge source="supwrgirlx" target="NewsWandaVision" id="43" />
+      <edge source="ANDRE_POS" target="rapadura" id="44" />
+      <edge source="disneygobr" target="EW" id="45" />
+      <edge source="EW" target="nerddavizinhaca" id="46" />
+      <edge source="plantaonerdice" target="disneyplus" id="47" />
+      <edge source="disneyplus" target="leandro_ssobral" id="48" />
+      <edge source="Fe_Spiesz" target="gugumorta" id="49" />
+      <edge source="cinemaanosluz" target="omelete" id="50" />
+      <edge source="agustdisney" target="almanaquedisney" id="51" />
+      <edge source="dayaninhasantos" target="VRocha777" id="52" />
+    </edges>
+  </graph>
+</gexf>

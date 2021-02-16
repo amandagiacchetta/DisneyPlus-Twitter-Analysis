@@ -1,0 +1,76 @@
+
+    <html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>neo4j display</title>
+
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.css" type="text/css" />
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis-network.min.js"> </script>
+
+      <style type="text/css">
+        #mynetwork {
+          width: 100%;
+          height: 500px;
+        }
+      </style>
+    </head>
+    <body data-gr-c-s-loaded="true">
+
+    <div id="mynetwork"><div class="vis-network" tabindex="900" style="position: relative; overflow: hidden; touch-action: pan-y; user-select: none; -webkit-user-drag: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); width: 100%; height: 100%;"><canvas width="1200" height="800" style="position: relative; touch-action: none; user-select: none; -webkit-user-drag: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); width: 100%; height: 100%;"></canvas></div></div>
+
+    <script type="text/javascript">
+      // create an array with nodes
+      var nodes = new vis.DataSet(
+      [{'id': 4523, 'label': 'fiallaJD'}, {'id': 865, 'label': 'th1ts'}, {'id': 214, 'label': 'petorrezan'}, {'id': 6213, 'label': 'bxllock_'}, {'id': 5457, 'label': 'arii'}, {'id': 1257, 'label': 'luizpereira____'}, {'id': 4557, 'label': 'luaarcas'}, {'id': 3183, 'label': 'Sermarini1'}, {'id': 5921, 'label': 'CheetahGirlsTCG'}, {'id': 5544, 'label': 'obrienlver'}, {'id': 4348, 'label': 'juquer1do'}, {'id': 2749, 'label': 'loves_loukamaa'}, {'id': 3752, 'label': 'ygonagostosa'}, {'id': 3895, 'label': 'mfersr1'}, {'id': 3833, 'label': 'thejoke314'}, {'id': 5163, 'label': 'tclemos'}, {'id': 3288, 'label': 'IcyBunny_11'}, {'id': 4505, 'label': 'LuzuGames'}, {'id': 3741, 'label': 'Damiaofdc'}, {'id': 2362, 'label': 'JPaulo645'}, {'id': 2034, 'label': 'submarino'}, {'id': 5357, 'label': 'anzflower'}, {'id': 391, 'label': 'nanacarlotto'}, {'id': 1570, 'label': 'xxwerexx'}, {'id': 4555, 'label': 'FelipeBueno83'}, {'id': 2955, 'label': 'dinillian'}, {'id': 3235, 'label': 'karinybrum'}, {'id': 1122, 'label': '21_aandreeaa'}, {'id': 3744, 'label': 'disneyplus'}, {'id': 6059, 'label': 'TheSimpsons'}, {'id': 4174, 'label': 'grandetiolu'}, {'id': 3756, 'label': 'B_Bertonzin'}, {'id': 1544, 'label': 'deaalves'}, {'id': 3690, 'label': 'Luckazz'}, {'id': 6128, 'label': 'yass_quintana'}, {'id': 1705, 'label': 'btrfIyroom'}, {'id': 355, 'label': 'rodrichjunior'}, {'id': 1071, 'label': 'yesungvr'}, {'id': 4429, 'label': 'ecchieunbi'}, {'id': 1348, 'label': 'nelsuu'}, {'id': 3724, 'label': 'Beyonce'}, {'id': 4988, 'label': 'maaycastro1'}, {'id': 526, 'label': 'MarceloLira_ITZ'}, {'id': 276, 'label': 'DisneyPlusBR'}, {'id': 754, 'label': 'DiegooCesar'}, {'id': 2519, 'label': 'adrina_abreu'}, {'id': 4609, 'label': 'falanext'}, {'id': 2493, 'label': 'dissolvemagic'}, {'id': 2291, 'label': 'sallesmp3'}, {'id': 3907, 'label': 'JJKGH0ST'}, {'id': 5084, 'label': 'iMandyCandy'}, {'id': 4724, 'label': 'bingalaxie'}, {'id': 5675, 'label': 'FerreiraRafa87'}, {'id': 1361, 'label': 'xuijias'}, {'id': 2172, 'label': 'bella_marotta'}, {'id': 5187, 'label': 'jumferr'}, {'id': 6232, 'label': 'AnaJlia13586272'}, {'id': 4805, 'label': 'kidslastnight'}, {'id': 6134, 'label': 'eltonJoan'}, {'id': 5975, 'label': 'niveabittencou4'}, {'id': 4826, 'label': 'Gopnitsa_'}, {'id': 6145, 'label': 'netomarin'}, {'id': 2615, 'label': 'AnalisandoCine'}, {'id': 3915, 'label': 'RedeGlobo'}, {'id': 1546, 'label': 'Dani_she8'}, {'id': 5700, 'label': 'Wilson_Yuri_'}, {'id': 5121, 'label': 'Thyagof_'}, {'id': 2843, 'label': 'brumoreira17'}, {'id': 1440, 'label': 'GutoAMaciel'}, {'id': 2124, 'label': 'OCamundongo'}, {'id': 2866, 'label': 'JediWildstar'}, {'id': 127, 'label': 'lodix1'}, {'id': 5688, 'label': 'futureskyfall'}, {'id': 1479, 'label': 'lokiNej'}, {'id': 1967, 'label': 'nathy_arujo'}, {'id': 6337, 'label': 'romanoffdanver'}, {'id': 1632, 'label': 'disneymagicinfo'}, {'id': 4218, 'label': 'ruelsclosure'}, {'id': 3850, 'label': 'tharsitom'}, {'id': 1325, 'label': 'Dan1eless'}, {'id': 4593, 'label': 'mauriciostycer'}, {'id': 8, 'label': 'globoplay'}, {'id': 5175, 'label': 'jenscut'}, {'id': 5787, 'label': 'rhenerfreitas'}, {'id': 4331, 'label': 'httpbarrets'}, {'id': 46, 'label': 'CallangoNerd'}, {'id': 3800, 'label': 'NetflixBrasil'}, {'id': 3755, 'label': 'dc'}, {'id': 6101, 'label': 'sirluizfelipe'}, {'id': 4705, 'label': 'HeteroGayouBi'}, {'id': 5304, 'label': 'nathisrare'}, {'id': 4794, 'label': 'vgprizelly'}, {'id': 1997, 'label': 'zianourrylm'}, {'id': 5041, 'label': '1dzakii'}, {'id': 4494, 'label': 'dehbeeregina'}, {'id': 3454, 'label': 'diego_pereira68'}, {'id': 2423, 'label': 'jheniffersfc'}, {'id': 4647, 'label': 'rbufolin'}, {'id': 6350, 'label': '_gguin'}, {'id': 5497, 'label': 'leocruz_real'}, {'id': 3184, 'label': 'BiereHunter'}, {'id': 3033, 'label': 'klevertonsoares'}, {'id': 1639, 'label': 'raissermanu'}, {'id': 4796, 'label': 'aboutsrabia'}, {'id': 5461, 'label': 'bilhetesincero9'}, {'id': 859, 'label': 'DannyBachiega'}, {'id': 1435, 'label': 'badbeyb'}, {'id': 2540, 'label': 'LSabrinaalves'}, {'id': 5456, 'label': 'clarinhamadeiro'}, {'id': 1258, 'label': 'enzocarvvalho'}, {'id': 5726, 'label': 'Kh16Hr'}, {'id': 5065, 'label': 'singularact4'}, {'id': 4558, 'label': 'Mat_Botato_Head'}, {'id': 6161, 'label': 'SimEleMesmokk'}, {'id': 2549, 'label': 'Gabriel99422438'}, {'id': 888, 'label': 'Kill2heal__'}, {'id': 5574, 'label': 'sofiaespanha'}, {'id': 5278, 'label': 'filhaadaputa'}, {'id': 1358, 'label': 'Yuh17'}, {'id': 1667, 'label': 'masaleco'}, {'id': 5662, 'label': 'shepweird'}, {'id': 3399, 'label': '94HADID'}, {'id': 4178, 'label': 'FdsTorugo'}, {'id': 4901, 'label': 'mallovatz'}, {'id': 801, 'label': 'vkogirl'}, {'id': 4274, 'label': 'seokairplane'}, {'id': 4179, 'label': 'malfoysfucks'}, {'id': 5216, 'label': 'flytotheskz'}, {'id': 4854, 'label': 'houisddl'}, {'id': 1164, 'label': '_GabrielAbdias'}, {'id': 1477, 'label': 'fernanandaft'}, {'id': 3281, 'label': 'brunodoamaral'}, {'id': 5633, 'label': 'myfuturxs'}, {'id': 156, 'label': 'DouglasEveling'}, {'id': 2010, 'label': 'DiegoFortes27'}, {'id': 4884, 'label': 'jmposition'}, {'id': 4383, 'label': 'info_DisneyPlus'}, {'id': 6269, 'label': 'myegox'}, {'id': 2552, 'label': 'nassrinhoparana'}, {'id': 5936, 'label': 'thiagoalvescar'}]
+      );
+
+      // create an array with edges
+      var edges = new vis.DataSet(
+      [{'from': 865, 'to': 214, 'label': 'replied'}, {'from': 865, 'to': 214, 'label': 'mentioned'}, {'from': 1257, 'to': 4557, 'label': 'replied'}, {'from': 1257, 'to': 4557, 'label': 'mentioned'}, {'from': 3183, 'to': 5921, 'label': 'mentioned'}, {'from': 2749, 'to': 3752, 'label': 'replied'}, {'from': 2749, 'to': 3752, 'label': 'mentioned'}, {'from': 5163, 'to': 5163, 'label': 'replied'}, {'from': 3288, 'to': 4505, 'label': 'replied'}, {'from': 3288, 'to': 4505, 'label': 'mentioned'}, {'from': 2362, 'to': 2034, 'label': 'replied'}, {'from': 2362, 'to': 2034, 'label': 'mentioned'}, {'from': 391, 'to': 1570, 'label': 'replied'}, {'from': 391, 'to': 1570, 'label': 'mentioned'}, {'from': 2955, 'to': 3235, 'label': 'replied'}, {'from': 2955, 'to': 3235, 'label': 'mentioned'}, {'from': 1122, 'to': 3744, 'label': 'mentioned'}, {'from': 1544, 'to': 3690, 'label': 'replied'}, {'from': 1544, 'to': 3690, 'label': 'mentioned'}, {'from': 1544, 'to': 3744, 'label': 'mentioned'}, {'from': 1705, 'to': 355, 'label': 'replied'}, {'from': 1705, 'to': 355, 'label': 'mentioned'}, {'from': 1071, 'to': 4429, 'label': 'replied'}, {'from': 1071, 'to': 4429, 'label': 'mentioned'}, {'from': 1348, 'to': 3724, 'label': 'mentioned'}, {'from': 526, 'to': 276, 'label': 'replied'}, {'from': 526, 'to': 276, 'label': 'mentioned'}, {'from': 754, 'to': 276, 'label': 'mentioned'}, {'from': 2519, 'to': 276, 'label': 'replied'}, {'from': 2519, 'to': 276, 'label': 'mentioned'}, {'from': 2519, 'to': 4609, 'label': 'mentioned'}, {'from': 2493, 'to': 2291, 'label': 'replied'}, {'from': 2493, 'to': 2291, 'label': 'mentioned'}, {'from': 1361, 'to': 3744, 'label': 'mentioned'}, {'from': 2172, 'to': 5187, 'label': 'replied'}, {'from': 2172, 'to': 5187, 'label': 'mentioned'}, {'from': 2615, 'to': 2615, 'label': 'replied'}, {'from': 2615, 'to': 3915, 'label': 'mentioned'}, {'from': 1546, 'to': 3744, 'label': 'mentioned'}, {'from': 2843, 'to': 276, 'label': 'mentioned'}, {'from': 1440, 'to': 2124, 'label': 'replied'}, {'from': 1440, 'to': 2124, 'label': 'mentioned'}, {'from': 2866, 'to': 127, 'label': 'replied'}, {'from': 2866, 'to': 127, 'label': 'mentioned'}, {'from': 1479, 'to': 1967, 'label': 'replied'}, {'from': 1479, 'to': 1967, 'label': 'mentioned'}, {'from': 6337, 'to': 6337, 'label': 'replied'}, {'from': 1632, 'to': 276, 'label': 'mentioned'}, {'from': 1325, 'to': 3744, 'label': 'replied'}, {'from': 1325, 'to': 4593, 'label': 'replied'}, {'from': 1325, 'to': 4593, 'label': 'mentioned'}, {'from': 1325, 'to': 8, 'label': 'mentioned'}, {'from': 1325, 'to': 3744, 'label': 'mentioned'}, {'from': 46, 'to': 3800, 'label': 'mentioned'}, {'from': 46, 'to': 3755, 'label': 'mentioned'}, {'from': 1997, 'to': 5041, 'label': 'replied'}, {'from': 1997, 'to': 5041, 'label': 'mentioned'}, {'from': 3454, 'to': 2423, 'label': 'replied'}, {'from': 3454, 'to': 2423, 'label': 'mentioned'}, {'from': 6350, 'to': 5497, 'label': 'replied'}, {'from': 3184, 'to': 3033, 'label': 'replied'}, {'from': 3184, 'to': 3033, 'label': 'mentioned'}, {'from': 1639, 'to': 4796, 'label': 'replied'}, {'from': 1639, 'to': 4796, 'label': 'mentioned'}, {'from': 859, 'to': 276, 'label': 'mentioned'}, {'from': 1435, 'to': 3744, 'label': 'replied'}, {'from': 1435, 'to': 3744, 'label': 'mentioned'}, {'from': 2540, 'to': 5456, 'label': 'mentioned'}, {'from': 1258, 'to': 5726, 'label': 'replied'}, {'from': 1258, 'to': 5065, 'label': 'replied'}, {'from': 1258, 'to': 4558, 'label': 'replied'}, {'from': 1258, 'to': 6161, 'label': 'replied'}, {'from': 1258, 'to': 4558, 'label': 'mentioned'}, {'from': 1258, 'to': 6161, 'label': 'mentioned'}, {'from': 1258, 'to': 5065, 'label': 'mentioned'}, {'from': 1258, 'to': 5726, 'label': 'mentioned'}, {'from': 2549, 'to': 888, 'label': 'replied'}, {'from': 2549, 'to': 888, 'label': 'mentioned'}, {'from': 1358, 'to': 276, 'label': 'replied'}, {'from': 1358, 'to': 276, 'label': 'mentioned'}, {'from': 1667, 'to': 3744, 'label': 'mentioned'}, {'from': 3399, 'to': 3744, 'label': 'mentioned'}, {'from': 801, 'to': 4274, 'label': 'replied'}, {'from': 801, 'to': 4179, 'label': 'replied'}, {'from': 801, 'to': 5216, 'label': 'replied'}, {'from': 801, 'to': 5216, 'label': 'mentioned'}, {'from': 801, 'to': 4179, 'label': 'mentioned'}, {'from': 801, 'to': 4274, 'label': 'mentioned'}, {'from': 1164, 'to': 3744, 'label': 'mentioned'}, {'from': 1477, 'to': 3281, 'label': 'replied'}, {'from': 1477, 'to': 3744, 'label': 'mentioned'}, {'from': 1477, 'to': 3281, 'label': 'mentioned'}, {'from': 156, 'to': 276, 'label': 'mentioned'}, {'from': 2010, 'to': 8, 'label': 'replied'}, {'from': 2010, 'to': 8, 'label': 'mentioned'}, {'from': 2552, 'to': 276, 'label': 'replied'}, {'from': 2552, 'to': 5936, 'label': 'replied'}, {'from': 2552, 'to': 276, 'label': 'mentioned'}, {'from': 2552, 'to': 5936, 'label': 'mentioned'}]
+      );
+
+      // create a network
+      var container = document.getElementById('mynetwork');
+      var data = {
+        nodes: nodes,
+        edges: edges
+      };
+      var options = {
+        nodes: {
+          font: { color: 'white',size: 14 },
+          color: '#F9A6C1',
+          size: 25,
+          shape: 'circle',
+          widthConstraint: 60
+        },
+        edges : {
+          arrows: {
+               to: {enabled: true, scaleFactor: 0.5}
+           },
+          "color": {
+              "inherit": false
+          },
+          font: {size: 14, align: 'middle'},
+          "smooth": {
+              "enabled": true,
+              "type": "dynamic",
+          },
+          "length": 200
+        },
+        "interaction": {
+            "dragNodes": true,
+            "hideEdgesOnDrag": false,
+            "hideNodesOnDrag": false
+        },
+        "physics": {
+            "enabled": true,
+            "stabilization": {
+                "enabled": true,
+                "fit": true,
+
+            }
+        }
+        };
+      var network = new vis.Network(container, data, options);
+    </script>
+
+    </body></html>
+    
