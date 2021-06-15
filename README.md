@@ -20,7 +20,7 @@ Which subjects were part of the conversation, co-occurrence hashtags, most frequ
 ## The research process
 
 **Data Collection**
-Twitter API: The data was colleted via Twitter API using Python and included posts in Portuguese with #Disneyplus
+The data was colleted via Twitter API using Python and included posts in Portuguese with #Disneyplus
 
 **Preprocessing**
 We selected most relevant variables for the project and preprocessed the data using Pandas. For network analysis, NetworkX was used to collect links and nodes.
