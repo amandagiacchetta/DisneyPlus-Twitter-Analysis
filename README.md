@@ -1,5 +1,8 @@
 # Disney+ Twitter Analysis
- 
+
+![image](https://user-images.githubusercontent.com/69639065/122557213-c6642880-d03c-11eb-8c3a-ee37e2fef3e5.png)
+
+
 Disney+ is the streaming service of the Disney Group. Besides all the Disney movies and series, it offers exclusive contents from brands like Marvel, Pixar, LucasFilm, and National Geographic.
 
 The service was launch officially in the EUA and Europe in the middle of 2020, but it was only available in Latin America and Brazil in November 17 2020.  
