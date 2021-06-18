@@ -9,7 +9,7 @@ The service was launch officially in the EUA and Europe in the middle of 2020, b
 
 Streaming services are usually very active on Twitter, interacting with their fans and customers. Therefore, to collect and analyze conversations during the app launch was relevant to understand the reactions of both customers and competitors. 
 
-You can find this analysis in a pdf format here.
+You can find this analysis in a pdf format [here.](https://github.com/amandagiacchetta/DisneyPlus_twitter_analysis/blob/main/disneyplus_twitter_analysis/report/Disney%2B%20Report.pdf)
 
 ## Project Goals
 
