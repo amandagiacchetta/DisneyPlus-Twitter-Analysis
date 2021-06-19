@@ -26,7 +26,7 @@ Which subjects were part of the conversation: co-occurrence hashtags, most frequ
 The data was collected via Twitter API using Python and included posts in Portuguese with #Disneyplus
 
 **Preprocessing**
-We selected the most relevant variables for the project and preprocessed the data using Pandas. For network analysis, NetworkX was used to collect links and nodes.
+I selected the most relevant variables for the project and preprocessed the data using Pandas. For network analysis, NetworkX was used to collect links and nodes.
 
 **Analysis**
 Charts and graphs were created using Plotly, Gephi, and RawGraph.
